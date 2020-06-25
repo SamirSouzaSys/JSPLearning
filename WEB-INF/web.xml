@@ -21,9 +21,62 @@ PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
         <servlet-name>PrimeiroServlet</servlet-name>
         <servlet-class>servlets.C01ServletsHello</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>PrimeiroServlet</servlet-name>
         <url-pattern>/c01ServletsHello</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NomeServlet</servlet-name>
+        <servlet-class>servlets.C06NomeRequestIfSevlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NomeServlet</servlet-name>
+        <url-pattern>/c06NomeRequestIfServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TerceiroServlet</servlet-name>
+        <servlet-class>servlets.C08SituacaoAlunoRequestHistoricoAluno</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TerceiroServlet</servlet-name>
+        <url-pattern>/c08SituacaoAlunoRequestHistoricoAluno</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>QuartoServlet</servlet-name>
+        <servlet-class>servlets.C08SituacaoAlunoRequestHistoricoAlunoTryCatch</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QuartoServlet</servlet-name>
+        <url-pattern>/c08SituacaoAlunoRequestHistoricoAlunoTryCatch</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>QuintoServlet</servlet-name>
+        <servlet-class>servlets.C15contarletrasrequestswitchLetras</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QuintoServlet</servlet-name>
+        <url-pattern>/c15contarletrasrequestswitchLetras</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SextoServlet</servlet-name>
+        <servlet-class>servlets.C16exibirTabuadaRequestWhile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SextoServlet</servlet-name>
+        <url-pattern>/c16exibirTabuadaRequestWhile</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetimoServlet</servlet-name>
+        <servlet-class>servlets.C17calcularSalarioPageImport</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetimoServlet</servlet-name>
+        <url-pattern>/c17calcularSalarioPageImport</url-pattern>
     </servlet-mapping>
 </web-app>
